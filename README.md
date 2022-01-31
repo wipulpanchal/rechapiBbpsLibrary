@@ -15,7 +15,4 @@ allprojects {
 dependencies {
 	        implementation 'com.github.wipulpanchal:rechapiBbpsLibrary:1.0.0'
 	}
-  dependencies {
-	        implementation 'com.github.wipulpanchal:rechapiBbpsLibrary:1.0.0'
-	}
   ```
