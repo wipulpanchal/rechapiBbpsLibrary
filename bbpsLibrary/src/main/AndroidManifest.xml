@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rechapi.bbps.bbpslibrary">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application android:allowBackup="true">
+
+        <activity android:name=".bbpsStart" />
+        <activity android:name=".bbpsServiceList" />
+        <activity android:name=".bbpsServiceCategory" />
+        <activity android:name=".adapter.bbpsServiceSubCategory"/>
+
+    </application>
+
+</manifest>

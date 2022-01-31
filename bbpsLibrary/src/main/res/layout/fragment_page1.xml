@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentlayoutone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/selectedIconone"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/select_balance" />
+
+                    <ImageView
+                        android:id="@+id/waterimg"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/selectedIconone"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/android" />
+
+                    <TextView
+                        android:id="@+id/imgtxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/waterimg"
+                        android:layout_alignParentLeft="true"
+
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="5dp" />
+
+                    <EditText
+                        android:id="@+id/consumernumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imgtxt"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Consumer Number" />
+
+                    <TextView
+                        android:id="@+id/txtvalidation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/consumernumber"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="52dp"
+                        android:text="  Please enter your 11 digit Consumer Number"
+                        android:textSize="12dp" />
+
+                    <EditText
+                        android:id="@+id/fourdigits"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtvalidation"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Enter 4 digit pin" />
+
+                    <Button
+                        android:id="@+id/btnproceed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fourdigits"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="30dp"
+                        android:backgroundTint="#34AC78"
+                        android:text="Proceed" />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

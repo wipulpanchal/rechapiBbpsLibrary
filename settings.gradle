@@ -1,0 +1,3 @@
+include ':bbpsLibrary'
+include ':app'
+rootProject.name = "rechapiBbpsLibrary"

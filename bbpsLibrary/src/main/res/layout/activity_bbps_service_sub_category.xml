@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".adapter.bbpsServiceSubCategory">
+
+    <LinearLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_3sdp"
+        android:layout_marginEnd="@dimen/_3sdp"
+        android:padding="@dimen/_10sdp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="@dimen/_28sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/search_gray"
+            android:id="@+id/btn_search"/>
+
+
+        <EditText
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:hint="Search "
+            android:id="@+id/editTextSearch"/>
+
+        <Button
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:focusable="true"
+            android:textColor="#FFFFFF"
+            android:id="@+id/clear"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEARCH"
+            android:backgroundTint="#0F4AAA" />
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/carviewview_pager"
+        android:layout_below="@+id/searchLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        app:cardCornerRadius="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:elevation="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager_subcategory_two"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            </androidx.viewpager.widget.ViewPager>
+
+       <!-- </RelativeLayout>-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.tabs.TabLayout
+                android:layout_alignParentBottom="true"
+                android:id="@+id/tab_dot_lyt_sub_cat"
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="wrap_content"
+                app:tabBackground="@drawable/tab_selector"
+                app:tabGravity="center"
+                app:tabIndicatorHeight="0dp"/>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewPager_frame_layout"
+            />
+
+        </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

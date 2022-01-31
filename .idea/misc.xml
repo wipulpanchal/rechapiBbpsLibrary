@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.20606884057971014" />
+        <entry key="bbpsLibrary/src/main/res/layout/activity_bbps_service_sub_category.xml" value="0.335" />
+        <entry key="bbpsLibrary/src/main/res/layout/activity_mail.xml" value="0.25" />
+        <entry key="bbpsLibrary/src/main/res/layout/fragment_page1.xml" value="0.25" />
+        <entry key="bbpsLibrary/src/main/res/layout/fragment_page2.xml" value="0.19067028985507245" />
+        <entry key="bbpsLibrary/src/main/res/layout/fragmentpage1.xml" value="0.2677083333333333" />
+        <entry key="bbpsLibrary/src/main/res/layout/main.xml" value="0.19067028985507245" />
+        <entry key="bbpsLibrary/src/main/res/layout/mobile.xml" value="0.19067028985507245" />
+        <entry key="bbpsLibrary/src/main/res/layout/page_sub_cate_one.xml" value="0.19067028985507245" />
+        <entry key="bbpsLibrary/src/main/res/layout/page_sub_cate_two.xml" value="0.19067028985507245" />
+        <entry key="bbpsLibrary/src/main/res/layout/row_sub_layout.xml" value="0.19067028985507245" />
+        <entry key="bbpsLibrary/src/main/res/layout/rowlayout.xml" value="0.19067028985507245" />
+        <entry key="bbpsLibrary/src/main/res/layout/rowlayout_sub_cat.xml" value="0.19067028985507245" />
+        <entry key="bbpsLibrary/src/main/res/layout/toolbar2sub.xml" value="0.19067028985507245" />
+        <entry key="bbpsLibrary/src/main/res/layout/view_pager_item.xml" value="0.2677083333333333" />
+        <entry key="bbpsLibrary/src/main/res/layout/viewitempager_item.xml" value="0.20606884057971014" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
