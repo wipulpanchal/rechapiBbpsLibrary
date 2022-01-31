@@ -11,7 +11,8 @@ allprojects {
 	}
 	}
 ```
-> Step 2. Add the dependency in gradle
+> Step 2. Add the dependency
+```gradle
 dependencies {
 	        implementation 'com.github.wipulpanchal:rechapiBbpsLibrary:1.0.0'
 	}
